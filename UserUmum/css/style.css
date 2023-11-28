@@ -184,13 +184,13 @@ img.animated.pulse {
 
 .text-stroke {
   -webkit-text-stroke: 2px #0000; /* Untuk browser berbasis WebKit (Chrome, Safari) */
-    text-stroke: 2px #0000; /* Standar CSS */
-    color: transparent;
+  text-stroke: 2px #0000; /* Standar CSS */
+  color: transparent;
 }
 /*** Deal ***/
 .deal {
   position: relative;
-  background: url(../img/bg.png) center center no-repeat;
+  background: url(../../Asset/ot.jpg) center center no-repeat;
   background-size: cover;
 }
 
@@ -221,7 +221,7 @@ img.animated.pulse {
 /*** How To Use ***/
 .how-to-use {
   position: relative;
-  background: url(../img/bg.png) center center no-repeat;
+  background: url(../../Asset/ot.jpg) center center no-repeat;
   background-size: cover;
 }
 
@@ -333,6 +333,10 @@ img.animated.pulse {
   background: var(--bs-primary);
 }
 
+.card {
+  background: #f2f2f2;
+}
+
 /*** Contact ***/
 .contact-info-item::before {
   position: absolute;
@@ -354,7 +358,7 @@ img.animated.pulse {
 /*** Newsletter ***/
 .newsletter {
   position: relative;
-  background: url(../img/bg.png) center center no-repeat;
+  background: url(../../Asset/ot.jpg) center center no-repeat;
   background-size: cover;
 }
 
