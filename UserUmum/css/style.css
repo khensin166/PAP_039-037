@@ -187,6 +187,12 @@ img.animated.pulse {
   text-stroke: 2px #0000; /* Standar CSS */
   color: transparent;
 }
+
+.fakultas {
+  background-image: url(../../Asset/delImage.jpg);
+  height: 10rem;
+}
+
 /*** Deal ***/
 .deal {
   position: relative;
