@@ -683,16 +683,17 @@ textarea {
 }
 
 button {
-	background-color: #702FA3;
+	background-color: #3C91E6;
 	color: white;
 	padding: 10px;
 	border: none;
 	cursor: pointer;
 	border-radius: 10px;
+	margin-top: 10px;
 }
 
 button:hover {
-	background-color: #9356C3;
+	background-color: #5088c0;
 }
 
 
@@ -702,7 +703,6 @@ button:hover {
 
 .announcement-item img {
 	width: 80px;
-	/* Sesuaikan ukuran gambar sesuai kebutuhan */
 	height: 60px;
 	margin-right: 10px;
 }
@@ -715,7 +715,6 @@ button:hover {
 	text-overflow: ellipsis;
 	white-space: nowrap;
 	max-width: 280px;
-	/* Adjust the max-width as needed */
 }
 
 
@@ -751,22 +750,66 @@ button:hover {
 .announcement-content {
 	margin-left: 10px;
 	white-space: nowrap;
-	/* Ensure text is on a single line */
 	overflow: hidden;
 	text-overflow: ellipsis;
-	/* Add ellipsis (...) for overflowed text */
 }
 
 table {
 	border-collapse: collapse;
 	width: 100%;
 	font-size: small;
-  }
+}
 
-  th, td {
+th,
+td {
 	padding: 8px;
 	text-align: left;
-  }
-  a i {
+}
+
+a i {
 	margin-right: 8px;
+}
+
+label, input, textarea, button {
+	font-family: 'Arial', sans-serif;
+	font-size: 16px;
+	color: #333;
+  }
+
+  #editForm h2 {
+	font-family: 'Arial', sans-serif;
+	font-size: 24px;
+	color: #555;
+  }
+  #facilityDescription {
+    width: 100%; 
+    height: 200px;
+    resize: vertical; 
+  }
+  #drop-area {
+	border: 2px solid #787878;
+	border-radius: 8px;
+	padding: 20px;
+	text-align: center;
+	cursor: pointer;
+  }
+
+  #drop-area.highlight {
+	border-color: #2196F3;
+	background-color: #E3F2FD;
+  }
+  #editDeskripsi{
+	width: 100%; 
+    height: 200px; 
+    resize: vertical;
+  }
+  #programVisi{
+	width: 100%; 
+    height: 150px; 
+    resize: vertical;
+  }
+  #programMisi{
+	width: 100%; 
+    height: 150px; 
+    resize: vertical;
   }

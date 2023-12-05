@@ -11,7 +11,7 @@
     />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <!-- My CSS -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css">
     <link rel="icon" href="../Asset/logo.jpg" />
     <title>Admin Del</title>
   </head>
@@ -42,13 +42,13 @@
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="fasilitas.html">
             <i class="bx bxs-home"></i>
             <span class="text">Fasilitas</span>
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="lembaga.html">
             <i class="bx bxs-group"></i>
             <span class="text">Lembaga</span>
           </a>
@@ -123,40 +123,26 @@
             <form id="addProgramForm" style="display: none;">
               <label for="programName">Program Studi:</label>
               <input type="text" id="programName" name="programName" required>
-  
+              <br><br>
               <label for="programVisi">Visi:</label>
               <textarea id="programVisi" name="programVisi" required></textarea>
-  
+              <br><br>
               <label for="programMisi">Misi:</label>
               <textarea id="programMisi" name="programMisi" required></textarea>
-  
+              <br><br>
               <button type="submit">Tambah Program Studi</button>
               <button type="button" onclick="cancelAddProgram()">Cancel</button>
             </form>
 
             <table id="programTable">
               <thead>
-                <tr>
+                <tr style="background-color: #3C91E6;">
                   <th style="width: 20%;">Program Studi</th>
                   <th style="width: 35%;">Visi</th>
                   <th style="width: 35%;">Misi</th>
                   <th style="width: 10%;">Aksi</th>
                 </tr>
               </thead>
-              <tbody>
-                <tr>
-                  <td>
-                    <p>D3 Teknologi Infromasi</p>
-                  </td>
-                  <td>Menghasilkan lulusan yang memiliki kemam ...</td>
-                  <td>Mampu membangun, mengembangkan dan ...</td>
-                  <td>
-                    <a href="#"><i class="fas fa-eye" title="Lihat"></i></a>
-                    <a href="#"><i class="fas fa-edit" title="Edit"></i></a>
-                    <a href="#"><i class="fas fa-trash" title="Delete"></i></a>
-                  </td>
-                </tr>
-              </tbody>
               <tbody>
                 <tr>
                   <td>
