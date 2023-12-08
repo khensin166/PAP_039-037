@@ -64,14 +64,14 @@ body {
   margin: 0 1rem;
 }
 .navbar .navbar-nav a:hover {
-  color: #BF9D36;
+  color: #bf9d36;
 }
 
 .navbar .navbar-nav a::after {
   content: "";
   display: block;
   padding-bottom: 0.5rem;
-  border-bottom: 0.1rem solid #BF9D36;
+  border-bottom: 0.1rem solid #bf9d36;
   transform: scaleX(0);
   transition: 0.4s linear;
 }
@@ -103,6 +103,13 @@ body {
   background-size: cover;
   background-position: center;
   position: relative;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Warna hitam dengan tingkat transparansi 0.5 (50%) */
+  z-index: 1; /* Pastikan pseudo-element berada di depan gambar latar belakang */
 }
 
 .hero::after {
@@ -466,7 +473,6 @@ button:hover .hover-btn {
 footer {
   background-color: #d9d9d9;
   margin-top: 3rem;
-
 }
 
 footer .foot {
@@ -484,7 +490,8 @@ footer .foot .left-menu .alamat {
   margin: 2rem;
 }
 
-footer .foot .socials, footer .foot .contactUs {
+footer .foot .socials,
+footer .foot .contactUs {
   margin: 4rem 1rem;
 }
 
@@ -494,11 +501,11 @@ footer .foot .contactUs {
 .terter {
   display: flex;
   align-items: center;
- justify-content: space-around;
+  justify-content: space-around;
 }
 
 footer .foot .socials .medsos {
-  margin: .5rem;
+  margin: 0.5rem;
 }
 
 footer .foot .socials a {
@@ -529,7 +536,7 @@ footer .foot .links a {
 
 footer .credit {
   font-size: 0.8rem;
- text-align: center;
+  text-align: center;
 }
 
 footer .credit a {
